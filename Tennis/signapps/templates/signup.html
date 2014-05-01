@@ -1,0 +1,8 @@
+{% block content %}
+            <h1>Tennis Database</h1>
+            <form method='Post' action=''> {%csrf_token%}
+		{{form.as_p}}
+		<input type='submit'>
+		Seacrh by Name,Nationality,Style of play
+{% endblock %}
+        

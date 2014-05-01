@@ -1,0 +1,6 @@
+{% block content %}
+            <h1>Recent Tournament Result </h1>
+            <form method='Post' action=''> {%csrf_token%}
+		{{form.as_p}}
+		<input type='submit'>
+{% endblock %}
